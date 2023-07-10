@@ -22,7 +22,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: bfontaine
+          user: proxeter
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -49,7 +49,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: bfontaine
+          user: proxeter
           template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -66,7 +66,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: bfontaine
+          user: proxeter
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -85,7 +85,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: bfontaine
+          user: proxeter
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -106,7 +106,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: bfontaine
+          user: proxeter
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
